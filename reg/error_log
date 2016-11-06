@@ -1,0 +1,4 @@
+[09-Feb-2016 04:36:55 UTC] PHP Fatal error:  Call to a member function result_array() on a non-object in /home/gensecbits/public_html/bits-pearl.org/reg/database.php on line 17
+[15-Feb-2016 10:07:22 UTC] PHP Fatal error:  Class 'Mail' not found in /home/gensecbits/public_html/bits-pearl.org/reg/database.php on line 31
+[15-Feb-2016 10:13:53 UTC] PHP Fatal error:  Call to undefined method PEAR_Error::send() in /home/gensecbits/public_html/bits-pearl.org/reg/database.php on line 41
+[15-Feb-2016 10:17:37 UTC] PHP Fatal error:  Call to undefined method PEAR_Error::mail() in /home/gensecbits/public_html/bits-pearl.org/reg/database.php on line 41

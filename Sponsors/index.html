@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ 	<style type="text/css">
+ 		 		.hovereffect {
+width:100%;
+height:100%;
+float:left;
+overflow:hidden;
+position:relative;
+text-align:center;
+cursor:default;
+}
+
+.hovereffect .overlay {
+width:100%;
+height:100%;
+position:absolute;
+overflow:hidden;
+top:0;
+left:0;
+opacity:0;
+background-color:rgba(0,0,0,0.5);
+-webkit-transition:all .4s ease-in-out;
+transition:all .4s ease-in-out
+}
+
+.hovereffect img {
+display:block;
+position:relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect h2 {
+text-transform:uppercase;
+color:#fff;
+text-align:center;
+position:relative;
+font-size:17px;
+background:rgba(0,0,0,0.6);
+-webkit-transform:translatey(-100px);
+-ms-transform:translatey(-100px);
+transform:translatey(-100px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:10px;
+}
+
+.hovereffect a.info {
+text-decoration:none;
+display:inline-block;
+text-transform:uppercase;
+color:#fff;
+border:1px solid #fff;
+background-color:transparent;
+opacity:0;
+filter:alpha(opacity=0);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+margin:50px 0 0;
+padding:7px 14px;
+}
+
+.hovereffect a.info:hover {
+box-shadow:0 0 5px #fff;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.2);
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+}
+
+.hovereffect:hover a.info {
+-webkit-transition-delay:.2s;
+transition-delay:.2s;
+}
+ 		.w3-center{text-align:center !important}
+ 		.w3-image{max-width: 40em;max-height:40em;  display: block;
+    margin-left: auto;
+    margin-right: auto}
+    	.w3-image-medium{max-width: 25em;max-height:20em;  display: block;
+    margin-left: auto;
+    margin-right: auto}
+    	.w3-image-small{max-width: 20em;max-height:20em;  display: block;
+    margin-left: auto;
+    margin-right: auto}
+    	.w3-image-very-small{max-width: 15em;max-height:20em;  display: block;
+    margin-left: auto;
+    margin-right: auto}
+    	.w3-image2{max-width: 35em;max-height:40em;  display: block;
+    margin-left: auto;
+    margin-right: auto}
+ 		.w3-card{border:1px solid #ccc}
+ 	.style {
+	border-top: 2px solid #8c8b8b;
+	border-bottom: 2px solid #fff;
+	}
+ 	#size_toi{max-width: 20em;max-height:35em;  display: block;
+    margin-left: auto;
+    margin-right: auto}
+    #sizecc{max-width: 25em;max-height:35em;  display: block;
+    margin-left: auto;
+    margin-right: auto}
+     #size_sm{max-width: 25em;max-height:35em;  display: block;
+    margin-left: auto;
+    margin-right: auto}
+
+ 	</style>
+ 	
+
+</head>
+<body>
+
+<hr class="style" />
+<h1 class="w3-center"><strong>Our Sponsors</strong></h1>
+
+ 	<hr class="style" />
+	<div class="container">
+  		<h1 class="w3-center">Title Sponsor</h1>
+  <div class="row ">
+    <div class="col-sm-8 col-sm-offset-2 w3-center">
+   					<div class="hovereffect w3-center ">
+					<img class="w3-center w3-image" src=".\logos1\SBHLogo_title.png" alt="image"/>
+					<div class="overlay">
+           			<a href="https://www.sbhyd.com/"><h2>State Bank Hyderabad</h2></a>
+					</div>
+					</div>
+    </div>
+ 
+  </div>
+  <br/>
+</div>
+	
+ 	<hr class="style" />
+
+ 
+
+
+	<div class="container">
+  		<h1 class="w3-center">Associate Sponsor</h1>
+  <div class="row">
+    <div class="col-sm-6">
+   					<div class="hovereffect">
+					<img id="sizecc" class="w3-center w3-image2" src=".\logos1\ComedyCentral_asso.png" alt="image"/>
+					<div class="overlay">
+           			<a href="https://www.comedycentral.in/"><h2>Comedy Central</h2></a>
+					</div>
+					</div>
+    </div>
+    <div class="col-sm-6">
+    				<div class="hovereffect">
+					<img class="w3-center w3-image" src=".\logos1\VH1_India.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.vh1.in/"><h2>VH1 India</h2></a>
+					</div>
+					</div>
+
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<hr class="style" />
+
+
+<div class="container">
+  		<h1 class="w3-center">Powered By</h1>
+  <div class="row">
+    <div class="col-sm-6">
+   					<div class="hovereffect">
+					<img class="w3-center w3-image" src=".\logos1\Smaaash-Logo.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://smaaash.in/"><h2>Smaaash</h2></a>
+					</div>
+					</div>
+    </div>
+
+    <div class="col-sm-6">
+    				<div class="hovereffect">
+					<img id="size_toi" class="w3-center w3-image" src=".\logos1\toi.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://timesofindia.indiatimes.com/"><h2>Times Of India</h2></a>
+					</div>
+					</div>
+
+    </div>
+ 
+  </div>
+</div>
+
+<hr class="style" />
+
+	<div class="container">
+  		<h1 class="w3-center">Pro Show Partners</h1>
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+   					<div class="hovereffect">
+					<img id="sizecc" class="w3-center w3-image" src=".\logos1\Maruti-COY-Logo.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.colorsofyouth.com/"><h2>Maruti Colours of Youth</h2></a>
+					</div>
+					</div>
+    </div>
+   
+  </div>
+</div>
+
+<hr class="style" />
+
+	<div class="container">
+  		<h1 class="w3-center">Event Sponsor</h1>
+
+  <div class="row">
+  	<div class="row">
+  		<h2 class="w3-center">Glitterarti</h2>
+  		<div class="col-sm-4">
+  			<h3 class="w3-center">Title</h3>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\SpamMart Logo (1).png" alt="image"/>
+					<div class="overlay">
+           			<a href="https://www.spammart.com/"><h2>Spam-Mart</h2></a>
+					</div>
+					</div>
+    </div>
+    <div class="col-sm-4">
+    		<h3 class="w3-center">Co-Title</h3>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\Rst Retail.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="https://www.facebook.com/rstretail/"><h2>Rst Retail</h2></a>
+					</div>
+					</div>
+    </div>
+    <div class="col-sm-4">
+    		<h3 class="w3-center">Powered By</h3>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\denver.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://denverformen.com/"><h2>Denver</h2></a>
+					</div>
+					</div>
+    </div>
+    
+  	</div>
+  	 
+  	 <hr>
+
+<div class="row">
+  		<h2 class="w3-center">Fraglore</h2>
+  		<div class="col-sm-6 col-sm-offset-3">
+  			<h3 class="w3-center">Title</h3>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image" src=".\logos1\Gigabyte_logo.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.gigabyte.in/"><h2>GigaByte</h2></a>
+					</div>
+					</div>
+    </div>
+ </div>
+    
+  	 
+  	 <hr>
+
+  	 <div class="row">
+  		<h2 class="w3-center">Food Fest</h2>
+  		<div class="col-sm-6 col-sm-offset-3">
+  			<h3 class="w3-center">Title</h3>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\TK-logo-it1.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.tummykart.com/"><h2>Tummy Cart</h2></a>
+					</div>
+					</div>
+    </div>
+    </div>
+    
+  	 
+  	 <hr>
+
+  	 <div class="row">
+  		<h2 class="w3-center">Till Deaf Do We Part</h2>
+  		<div class="col-sm-4">
+  			
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\2Lahcruz.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.yahavi.com/"><h2>Yahavi</h2></a>
+					</div>
+					</div>
+    </div>
+    <div class="col-sm-4">
+  			
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-medium" src=".\logos1\FedEx-Express-Logo-Vector-Image.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.fedex.com/in/"><h2>Fed-Ex</h2></a>
+					</div>
+					</div>
+    </div>
+    <div class="col-sm-4">
+  			
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\pepsi_mtv_indies.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://pepsimtvindies.com/home"><h2>Pepsi MTV Indies</h2></a>
+					</div>
+					</div>
+    </div>
+    </div>
+    
+  	 
+  	 <hr>
+
+  	  	 <div class="row">
+  		<h2 class="w3-center">Catharsis</h2>
+  		<div class="col-sm-6">
+  			
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\Popart.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://popartfactory.in/"><h2>Popart</h2></a>
+					</div>
+					</div>
+    </div>
+    <div class="col-sm-6">
+  			<br/>
+  			<br/>
+  			<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image" src=".\logos1\kvik_movies.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://kvik-movies.com/"><h2>Kvik-Movies</h2></a>
+					</div>
+					</div>
+    </div>
+
+    </div>
+
+    <hr>
+</div>
+<br/>
+</div>
+
+
+<hr class="style" />
+
+<div class="container">
+  		<h1 class="w3-center">Photog Fest</h1>
+  <div class="row">
+    <div class="col-sm-6">
+   					<div class="hovereffect">
+					<img id="sizecc" class="w3-center w3-image" src=".\logos1\Campus-Diaries.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="https://campusdiaries.com/"><h2>Campus Diaries</h2></a>
+					</div>
+					</div>
+    </div>
+
+    <div class="col-sm-6">
+   					<div class="hovereffect">
+					<img class="w3-center w3-image" src=".\logos1\IIP.png" alt="image"/>
+					<div class="overlay">
+           			<a href="https://www.indianinstituteofphotography.com/"><h2>Indian Institute Of Photography</h2></a>
+					</div>
+					</div>
+    </div>
+   
+  </div>
+</div>
+
+<hr class="style" />
+
+<div class="container">
+  		<h1 class="w3-center">Gold Sponsors</h1>
+  <div class="row">
+    <div class="col-sm-4">
+    <br/>
+    <br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\gadgetbaski-logo (2).png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.gadgetbaski.com/"><h2>Gadget Baski</h2></a>
+					</div>
+					</div>
+    </div>
+
+    <div class="col-sm-4">
+    <br/>
+    <br/>
+    <br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-medium" src=".\logos1\Zoomcar.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.zoomcar.com/"><h2>ZoomCar</h2></a>
+					</div>
+					</div>
+    </div>
+
+    <div class="col-sm-4">
+    <br/>
+    <br/>
+    <br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image" src=".\logos1\cyient.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.cyient.com/"><h2>Cyient</h2></a>
+					</div>
+					</div>
+    </div>
+   
+  </div>
+   <div class="row">
+    <div class="col-sm-4">
+    <br/>
+    <br/>
+    <br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\yes_mart.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://yesmart.in/MpHome.jsf?merchantId=1650"><h2>Yes Mart</h2></a>
+					</div>
+					</div>
+    </div>
+
+    <div class="col-sm-4">
+    <br/>
+    <br/>
+    <br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-medium" src=".\logos1\navya.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.navyaconstructions.com/"><h2>Navya Constructions</h2></a>
+					</div>
+					</div>
+    </div>
+
+    <div class="col-sm-4">
+    <br/>
+    <br/>
+    <br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\askme-bazaar.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.askmebazaar.com/"><h2>Ask Me Bazaar</h2></a>
+					</div>
+					</div>
+    </div>
+
+  
+  </div>
+</div>
+
+<hr class="style" />
+
+<div class="container">
+  		<!--<h1 class="w3-center">Partnered With</h1>-->
+  <div class="row">
+    <div class="col-sm-3">
+   					<h4 class="w3-center">Audio Partner</h4>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\Zebronics Black 2.png" alt="image"/>
+					<div class="overlay">
+           			<a href="https://www.zebronics.com/"><h2>Zebronics</h2></a>
+					</div>
+					</div>
+    </div>
+    <div class="col-sm-3">
+   					<h4 class="w3-center">Terpischore Partner</h4>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\To The Culture.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://totheculture.com/"><h2>To The Culture</h2></a>
+					</div>
+					</div>
+    </div>
+
+	<div class="col-sm-3">
+   					<h4 class="w3-center">Celebrity Escort Partner</h4>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\Audi Logo.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.audi.in/sea/brand/in.html"><h2>Audi</h2></a>
+					</div>
+					</div>
+    </div>
+	<div class="col-sm-3">
+					<h4 class="w3-center">Chocolate Partner</h4>
+	<br/>
+	<br/>
+
+   					
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\Gandour.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="https://www.gandour.com/"><h2>Gandour</h2></a>
+					</div>
+					</div>
+    </div>
+
+    
+</div>
+
+    <hr>
+  <div class="row">
+    <div class="col-sm-3">
+   					<h4 class="w3-center">Gaming Partner</h4>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\Copy of PBLogoTextBig.png" alt="image"/>
+					<div class="overlay">
+           			<a href="https://www.pokerbaazi.com/"><h2>PokerBazzi</h2></a>
+					</div>
+					</div>
+    </div>
+    <div class="col-sm-3">
+   					<h4 class="w3-center">Two-Wheeler Partner</h4>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\Honda.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.honda2wheelersindia.com/"><h2>Honda</h2></a>
+					</div>
+					</div>
+    </div>
+    <div class="col-sm-3">
+   					<h4 class="w3-center">Two-Wheeler Partner</h4>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\KTM-Logo1.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.ktm.com/in/"><h2>KTM</h2></a>
+					</div>
+					</div>
+    </div>
+
+	<div class="col-sm-3">
+   					<h4 class="w3-center">Youth Partner</h4>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\grapevine.png" alt="image"/>
+					<div class="overlay">
+           			<a href="#"><h2>GrapeWine</h2></a>
+					</div>
+					</div>
+    </div>
+
+    </div>
+
+    <div class="row">
+
+	<div class="col-sm-3">
+   					<h4 class="w3-center">Consultation Partner</h4>
+
+   					<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\Career Launcher.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.careerlauncher.com/"><h2>Career Launcher</h2></a>
+					</div>
+					</div>
+    </div>
+
+
+
+    <div class="col-sm-3">
+   					<h4 class="w3-center">App Partner</h4>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\Logo landscape-app copy 2.png" alt="image"/>
+					<div class="overlay">
+           			<a href="https://www.bobbleapp.me/home"><h2>Bobble App</h2></a>
+					</div>
+					</div>
+    </div>
+	<div class="col-sm-3">
+   					<h4 class="w3-center">Car Partner</h4>
+
+   					<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-medium" src=".\logos1\TVS.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.sundarammotors.com/honda/"><h2>Sundaram Honda</h2></a>
+					</div>
+					</div>
+    </div>
+
+    <hr/>
+
+    </div>
+
+    <div class="row">
+    	<div class="col-sm-3">
+   					<h4 class="w3-center">Adventure Partner</h4>
+
+   					<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\sahas-logo.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://sahasadventure.co.in/"><h2>Sahas Adventures</h2></a>
+					</div>
+					</div>
+    </div>
+
+    <div class="col-sm-3">
+   					<h4 class="w3-center">Ticketing Partner</h4>
+
+   					<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\MeraEvents-Hyderabad-YourStory.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.meraevents.com/"><h2>Mera Event</h2></a>
+					</div>
+					</div>
+    </div>
+
+    <div class="col-sm-3">
+   					<h4 class="w3-center">Education Partner</h4>
+
+   					<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\idp.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="https://www.idp.com/india/studyabroad"><h2>IDP</h2></a>
+					</div>
+					</div>
+    </div>
+
+    <div class="col-sm-3">
+   					<h4 class="w3-center">Electronics Partner</h4>
+
+   					<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-medium" src=".\logos1\havells.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.havells.com/content/havells/en.html"><h2>Havells</h2></a>
+					</div>
+					</div>
+    </div>
+
+    </div>
+
+    <div class="row">
+    <div class="col-sm-6">
+    		<h4 class="w3-center">Merchandise Partner</h4>
+    	<div class="row">
+    		<div class="col-sm-6">
+    			
+
+   					<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\meraki.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.meraekii.in/"><h2>Merakii</h2></a>
+					</div>
+					</div>
+    			
+    		</div>
+    		<div class="col-sm-6">
+    			
+
+   					<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.meraevents.com/"><h2>Mera Event</h2></a>
+					</div>
+					</div>
+    			
+    		</div>
+    	</div>
+    </div>
+    <div class="col-sm-6">
+    		<h4 class="w3-center">Media Partner</h4>
+    	<div class="row">
+    		<div class="col-sm-4">
+    			
+
+   					<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\sakshigrp.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.meraevents.com/"><h2>Mera Event</h2></a>
+					</div>
+					</div>
+    			
+    		</div>
+    		<div class="col-sm-4">
+    			
+
+   					<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\RadioMirchi-logo.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.radiomirchi.com/"><h2>Radio Mirchi</h2></a>
+					</div>
+					</div>
+    			
+    		</div>
+                 <div class="col-sm-4">
+    			
+
+   					<br/>
+   					<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\t1.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.typicalindian.com/"><h2>Typical Indian</h2></a>
+					</div>
+					</div>
+    			
+    		</div>
+    	</div>
+    </div>
+    </div>
+
+    <div class="row">
+    	<div class="col-sm-3 col-sm-offset-3">
+    	<h4 class="w3-center">Styling Partner</h4>
+    		<div class="hovereffect">
+					<img class="w3-center w3-image-small" src=".\logos1\vibes.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://vibes.in/"><h2>Vibes</h2></a>
+					</div>
+					</div>
+    	</div>
+    	<div class="col-sm-3">
+    	<h4 class="w3-center">Apparel Partner</h4>
+    	<br/>
+    		<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\liberent.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.liberent.com/"><h2>Librent</h2></a>
+					</div>
+					</div>
+    	</div>
+    	
+    </div>
+
+    <div class="row">
+    	<div class="col-sm-3">
+    	<br/>
+    	<br/>
+    		<div class="hovereffect">
+					<span style="background-color: black;"><img class="w3-center w3-image-very-small" src=".\logos1\firstacad.png" alt="image"/></span>
+					<div class="overlay">
+           			<a href="http://firstacademy.in/"><h2>First Academy</h2></a>
+					</div>
+					</div>
+    	</div>
+    	<div class="col-sm-3">
+    	<h4 class="w3-center">Hairstlye Partner</h4>
+    		<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\javedhabib.png" alt="image"/>
+					<div class="overlay">
+           			<a href="http://jawedhabib.co.in/"><h2>Javed Habib</h2></a>
+					</div>
+					</div>
+    	</div>
+    	<div class="col-sm-3">
+    	<br/>
+    	<br/>
+    		<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\Bhashyam edu logo.jpg" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.bhashyamschools.com/"><h2>Bhashyam</h2></a>
+					</div>
+					</div>
+    	</div>
+    	<div class="col-sm-3">
+    	<br/>
+    	<br/>
+    		<div class="hovereffect">
+					<img class="w3-center w3-image-very-small" src=".\logos1\golars-networks-logo.gif" alt="image"/>
+					<div class="overlay">
+           			<a href="http://www.golarsnetworks.com//"><h2>Golars Networks</h2></a>
+					</div>
+					</div>
+    	</div>
+
+    </div>
+    
+
+
+
+    
+</div>
+</div>
+</div>
+<hr class="style" />
+
+<p class="w3-center">
+<h3 class="w3-center">
+<a href="http://bits-pearl.org/Sponsors/past_sponsors.html" target="_blank">View Out Past Sponsors</a>
+</h3>
+</p>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>	

@@ -1,0 +1,1 @@
+[09-Feb-2016 04:36:55 UTC] PHP Fatal error:  Call to a member function result_array() on a non-object in /home/gensecbits/public_html/bits-pearl.org/reg/database.php on line 17
