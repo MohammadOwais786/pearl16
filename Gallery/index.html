@@ -15,31 +15,31 @@
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/navcomponent.css" />
     <script src="js/modernizr.custom.js"></script>
+    <script type="text/javascript">
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=1647093018897958";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+        $(function () {
+
+            Gallery.init({
+                layout: [3, 3, 3, 3]
+            });
+
+        });
+    </script>
 </head>
 <body>
-    <div id="fb-root"></div>
-    <script>
-(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=1647093018897958";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-    <script>
-    $(function () {
-
-        Gallery.init({
-            layout: [3, 3, 3, 3]
-        });
-
-    });
-    </script>
-
+    <div id="fb-root"></div>    
     <div class="container">
         <!-- Codrops top bar -->
 
-        <h1>Credits-Department of Photography <div class="fb-like" data-href="https://www.facebook.com/DoPY.BPHC" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></h1>
+        <h1>Credits-Department of Photography</h1> <div class="fb-like" data-href="https://www.facebook.com/DoPY.BPHC" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
 
         <div id="gr-gallery" class="gr-gallery">
             <nav class="cl-effect-14 top_nav_bar" style="z-index: 3;width: 100%;top: 1%;left: 30%;font-size:smaller;">
